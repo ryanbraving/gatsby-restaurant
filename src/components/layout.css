@@ -10,6 +10,6 @@
 
 body{
     font-family: 'Caveat', 'cursive';
-    color: black;
-    background: white;
+    color: white;
+    background: var(--mainOrange);
 }
