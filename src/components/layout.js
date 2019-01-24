@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {createGlobalStyle} from 'styled-components'
+import Navbar from '../components/globals/navbar'
 
 // import './bootstrap.min.css'
 // import './layout.css'
@@ -9,7 +10,8 @@ import {createGlobalStyle} from 'styled-components'
 const Layout = ({children}) => {
   return(
     <React.Fragment>
-      <GlobalStyle/>
+      <GlobalStyle />
+      <Navbar />
       {children}
     </React.Fragment>
   )
@@ -24,7 +26,7 @@ const GlobalStyle = createGlobalStyle`
   
   body{
       font-family: 'Open Sans', sans-serif;
-      color: red;
+      color: black;
       background: #fff;
   }
 `
