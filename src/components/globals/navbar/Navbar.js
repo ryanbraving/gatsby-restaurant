@@ -31,6 +31,6 @@ export default class Navbar extends Component {
 const NavbWrapper = styled.nav`
 @media (min-width:768px){
   display:flex;
-  align-items:cent;
+  align-items:center;
 }
 `
