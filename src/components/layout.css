@@ -5,11 +5,12 @@
 }
 
 :root{
-    --mainOrange: #f15025;
+    --mainWhite: #ffffff;
+    --mainYellow: #d2aa5c;
 }
 
 body{
-    font-family: 'Caveat', 'cursive';
-    color: white;
-    background: var(--mainOrange);
+    font-family: 'Caveat', cursive;
+    color: black;
+    background: var(--mainWhite);
 }
