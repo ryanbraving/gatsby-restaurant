@@ -11,8 +11,6 @@ export default class Navbar extends Component {
 
   handleNavbar = () =>{
     this.setState(() =>{
-      console.log("handleNavbar method is called in Navbar")
-      console.log("handleNavbar method is changing the state of navbarOpen to: ", !this.state.navbarOpen)
       return {navbarOpen:!this.state.navbarOpen}
     })
   }

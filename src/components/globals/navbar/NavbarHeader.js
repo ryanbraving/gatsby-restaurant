@@ -8,9 +8,7 @@ import {styles} from '../../../utils'
 
 export default class NavbarHeader extends Component {
   render() {
-    console.log(logo)
     const logoPath = logo.replace('http://:8000/','')
-    console.log(logoPath) 
     const { handleNavbar } = this.props
     return (
       <HeaderWrapper>
@@ -20,7 +18,6 @@ export default class NavbarHeader extends Component {
         <FaAlignRight
           className="toggle-icon"
           onClick={() => {
-            console.log("handleNavbar is callbacked inside onClick() function in NavbarHeader")
             // this.props.handleNavbar()
             handleNavbar()
           }}   />
