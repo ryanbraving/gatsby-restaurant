@@ -24,7 +24,6 @@ const BannerWrapper = styled.div`
     }
     .subtitle{
         color:${styles.colors.mainWhite};
-        /* font-family not working! */
         ${styles.textSlanted}; 
         ${styles.letterSpacing({spacing: '0.15rem'})};
         text-transform: capitalize;
